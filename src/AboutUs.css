@@ -1,9 +1,16 @@
 .about-us-container {
-  width: 1000px;
-  /* margin: 0 auto; */
-  /* padding: 20px; */
-  /* background-color: red; */
-  text-align: justify;
+  background-image: url('https://wallpapers.com/images/featured/plant-background-mh4y9mexexlv960o.webp'); /* Use your image URL */
+  background-size: cover; /* Makes the image cover the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  padding: 20px; /* Adds spacing inside the container */
+  color: white; /* Ensures text is readable on the image */
+  min-height: 100vh; /* Makes the container at least the height of the screen */
+  font-family: Arial, sans-serif;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Adds shadow for text readability */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-us-heading {
